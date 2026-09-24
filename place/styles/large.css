@@ -1,89 +1,89 @@
 @media (min-width: 720px) {
 
-:root {
-  --main-color: #7ae582;
-  --background-color: #003554;
-  --first-font: "Archivo Black", sans-serif;
-  --second-font: "Roboto", sans-serif;
-}
+    :root {
+    --main-color: #7ae582;
+    --background-color: #003554;
+    --first-font: "Archivo Black", sans-serif;
+    --second-font: "Roboto", sans-serif;
+    }
 
-header {
-    background-color: var(--main-color);
-}
+    header {
+        background-color: var(--main-color);
+    }
 
-h1 {
-    color: black;
-    font-size: 350%;
-    text-align: center;
-    padding: 25px;
-    font-family: var(--first-font);
-}
+    h1 {
+        color: black;
+        font-size: 350%;
+        text-align: center;
+        padding: 25px;
+        font-family: var(--first-font);
+    }
 
-h2 {
-    font-family: var(--first-font);    
-}
+    h2 {
+        font-family: var(--first-font);    
+    }
 
-p, span {
-    font-family: var(--second-font);
-}
-body {
-    background-color: var(--background-color);
-    
-}
+    p, span {
+        font-family: var(--second-font);
+    }
+    body {
+        background-color: var(--background-color);
+        
+    }
 
-#hero-div {
-    margin-left: 20px;
-    margin-right: 20px;
-    position: relative;
-    width: 100%;
-}
+    #hero-div {
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+        width: 100%;
+    }
 
-.hero {
-    position: relative;
-    width: 100%;
+    .hero {
+        position: relative;
+        width: 100%;
 
-}
+    }
 
-.hero-img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
+    .hero-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
-.box {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.3); 
-    color: white;
-    padding: 4rem;
-    font-size: 200%;
-    border-radius: 18px;
-    max-width: 350px;
-    text-align: center;
-    backdrop-filter: blur(2px);
-}
+    .box {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.3); 
+        color: white;
+        padding: 4rem;
+        font-size: 200%;
+        border-radius: 18px;
+        max-width: 350px;
+        text-align: center;
+        backdrop-filter: blur(2px);
+    }
 
-#weather-icon {
-    width: 40%;
-}
+    #weather-icon {
+        width: 40%;
+    }
 
-.top-left {
-  top: 1rem;
-  left: 1rem;
-}
+    .top-left {
+    top: 1rem;
+    left: 1rem;
+    }
 
-.bottom-right {
-  bottom: 1rem;
-  right: 1rem;
-}
+    .bottom-right {
+    bottom: 1rem;
+    right: 1rem;
+    }
 
 
-footer {
-    background-color: #7ae582;
-    color: black;
-    font-size: 150%;
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
-}
+    footer {
+        background-color: #7ae582;
+        color: black;
+        font-size: 150%;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+    }
 
 }

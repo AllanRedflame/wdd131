@@ -1,0 +1,34 @@
+    :root {
+    --main-color: #7ae582;
+    --background-color: #003554;
+    --first-font: "Archivo Black", sans-serif;
+    --second-font: "Roboto", sans-serif;
+    }
+
+    header {
+        background-color: var(--main-color);
+        text-align: center;
+        padding: 8px;
+    }
+
+    body {
+        background-color: #003554;
+    }
+
+    .hero-img {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .box {
+        text-align: center;
+        margin: 10px;
+        background-color: #9fffcb;
+        padding: 5px;
+    }
+
+    footer {
+        background-color: var(--main-color);
+        text-align: center;
+        padding: 8px;    
+    }
