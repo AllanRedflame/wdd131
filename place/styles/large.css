@@ -53,15 +53,18 @@
     .box {
         position: absolute;
         background: rgba(0, 0, 0, 0.3); 
-        color: white;
-        padding: 4rem;
-        font-size: 200%;
+        padding: 2rem;
+        font-size: 100%;
         border-radius: 18px;
         max-width: 350px;
         text-align: center;
         backdrop-filter: blur(2px);
+        color: white;
     }
 
+
+
+    
     #weather-icon {
         width: 40%;
     }
@@ -75,6 +78,13 @@
         bottom: 1rem;
         right: 1rem;
     }
+
+    .top-left::after {
+        content: "Total buildings: 135,000";
+        font-family: var(--second-font);
+    }
+
+
 
 
     footer {
