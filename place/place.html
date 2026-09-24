@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>place website</title>
+
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Seattle</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+        <img src="images/hero-img-two.webp" alt="Hero image" class="hero-img">
+
+        <div class="box top-left">
+            <h2>Data</h2>
+            <p>Area: 83.9 sq mi</p>
+            <p>Population: 784,777</p>
+            <p>Currency: USD</p>
+            <p>Founded: December 2, 1869</p>
+            <p>Total buildings: 135,000</p>
+            <p></p>
+        </div>
+
+        <div class="box bottom-right">
+            <h2>Weather</h2>
+            <img id="weather-icon">
+            <p id="weather-description"></p>
+            <p id="mph"></p>
+            <p id="temperature"></p>
+            <p id="wind-chill"></p>
+
+
+        </div>
+        </div>
+
+
+    </main>
+        
+
+
+
+    <footer>
+        <p><span id="currentyear"></span></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
