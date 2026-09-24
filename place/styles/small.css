@@ -1,4 +1,6 @@
-    :root {
+@media (max-width: 719px) {
+
+:root {
     --main-color: #7ae582;
     --background-color: #003554;
     --first-font: "Archivo Black", sans-serif;
@@ -32,3 +34,4 @@
         text-align: center;
         padding: 8px;    
     }
+}
