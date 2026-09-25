@@ -16,47 +16,68 @@ async function apiFetch() {
 apiFetch();
 
 function displayResults(weatherData) {
+
+    const iconMap = {
+  "01d": "images/sunny.svg",
+  "01n": "images/clear-night.svg",
+
+  "02d": "images/cloud.svg",
+  "02n": "images/cloud.svg",
+
+  "03d": "images/cloud.svg",
+  "03n": "images/cloud.svg",
+
+  "04d": "images/cloud.svg",
+  "04n": "images/cloud.svg",
+
+  "09d": "images/rain.svg",
+  "09n": "images/rain.svg",
+
+  "10d": "images/rain.svg",
+  "10n": "images/rain.svg",
+
+  "11d": "images/rain.svg",
+  "11n": "images/rain.svg",
+
+  "13d": "rain/snow.svg",
+  "13n": "rain/snow.svg",
+
+  "50d": "images/fog.svg",
+  "50n": "images/fog.svg"
+};
+
   const temperature = weatherData.main.temp;
   const mph = weatherData.wind.speed;
   const desc = weatherData.weather[0].description;
   const iconCode = weatherData.weather[0].icon;
-  const iconSrc = `https://openweathermap.org/img/w/${iconCode}.png`;
-
-  // Find the container
+  const iconSrc = iconMap[iconCode];
+  
   const container = document.querySelector(".bottom-right");
 
-  // Safety check
   if (!container) {
     console.error("No .bottom-right container found.");
     return;
   }
-
-  // Create a wrapper for all weather info
   const weatherBox = document.createElement("div");
   weatherBox.classList.add("weather-box");
 
-    // Weather Icon
   const iconImg = document.createElement("img");
   iconImg.src = iconSrc;
   iconImg.alt = desc;
   weatherBox.appendChild(iconImg);
 
-  // Temperature
   const tempEl = document.createElement("p");
   tempEl.textContent = `Temperature: ${Math.round(temperature)}°`;
   weatherBox.appendChild(tempEl);
 
-  // Wind Speed
   const windEl = document.createElement("p");
   windEl.textContent = `Wind Speed: ${Math.round(mph)} mph`;
   weatherBox.appendChild(windEl);
 
-  // Description
   const descEl = document.createElement("p");
   descEl.textContent = `Conditions: ${desc}`;
   weatherBox.appendChild(descEl);
 
-  // Wind Chill
   const windChillEl = document.createElement("p");
 
   const windChill = Math.round(
