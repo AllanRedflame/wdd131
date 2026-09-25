@@ -29,26 +29,6 @@ apiFetch();
 
 function displayResults(weatherData) {
 
-  const iconMapWebp = {
-    "01d": "images/sunny.webp",
-    "01n": "images/clear-night.webp",
-    "02d": "images/cloud.webp",
-    "02n": "images/cloud.webp",
-    "03d": "images/cloud.webp",
-    "03n": "images/cloud.webp",
-    "04d": "images/cloud.webp",
-    "04n": "images/cloud.webp",
-    "09d": "images/rain.webp",
-    "09n": "images/rain.webp",
-    "10d": "images/rain.webp",
-    "10n": "images/rain.webp",
-    "11d": "images/rain.webp",
-    "11n": "images/rain.webp",
-    "13d": "images/snow.webp",
-    "13n": "images/snow.webp",
-    "50d": "images/fog.webp",
-    "50n": "images/fog.webp"
-  };
 
   const iconMapSvg = {
     "01d": "images/sunny.svg",
@@ -77,7 +57,6 @@ function displayResults(weatherData) {
   const iconCode = weatherData.weather[0].icon;
 
   const iconSrcSvg = iconMapSvg[iconCode];
-  const iconSrcWebp = iconMapWebp[iconCode];
 
   const container = document.querySelector(".bottom-right");
 
@@ -89,11 +68,7 @@ function displayResults(weatherData) {
   const weatherBox = document.createElement("div");
   weatherBox.classList.add("weather-box");
 
-  const iconImgWebp = document.querySelector("#icon-webp");
   const iconImgSvg = document.querySelector("#icon-svg");
-
-  iconImgWebp.src = iconSrcWebp;
-  iconImgWebp.alt = desc;
 
   iconImgSvg.src = iconSrcSvg;
   iconImgSvg.alt = desc;
