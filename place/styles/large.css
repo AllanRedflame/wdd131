@@ -65,7 +65,7 @@
 
 
     
-    #weather-icon {
+    #icon-webp {
         width: 40%;
     }
 
@@ -84,7 +84,9 @@
         font-family: var(--second-font);
     }
 
-
+    #icon-svg {
+        display: none;
+    }
 
 
     footer {

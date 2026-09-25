@@ -17,40 +17,70 @@ apiFetch();
 
 function displayResults(weatherData) {
 
-    const iconMap = {
-  "01d": "images/sunny.svg",
-  "01n": "images/clear-night.svg",
+    const iconMapWebp = {
+      "01d": "images/sunny.webp",
+      "01n": "images/clear-night.webp",
 
-  "02d": "images/cloud.svg",
-  "02n": "images/cloud.svg",
+      "02d": "images/cloud.webp",
+      "02n": "images/cloud.webp",
 
-  "03d": "images/cloud.svg",
-  "03n": "images/cloud.svg",
+      "03d": "images/cloud.webp",
+      "03n": "images/cloud.webp",
 
-  "04d": "images/cloud.svg",
-  "04n": "images/cloud.svg",
+      "04d": "images/cloud.webp",
+      "04n": "images/cloud.webp",
 
-  "09d": "images/rain.svg",
-  "09n": "images/rain.svg",
+      "09d": "images/rain.webp",
+      "09n": "images/rain.webp",
 
-  "10d": "images/rain.svg",
-  "10n": "images/rain.svg",
+      "10d": "images/rain.webp",
+      "10n": "images/rain.webp",
 
-  "11d": "images/rain.svg",
-  "11n": "images/rain.svg",
+      "11d": "images/rain.webp",
+      "11n": "images/rain.webp",
 
-  "13d": "rain/snow.svg",
-  "13n": "rain/snow.svg",
+      "13d": "images/snow.webp",
+      "13n": "images/snow.webp",
 
-  "50d": "images/fog.svg",
-  "50n": "images/fog.svg"
+      "50d": "images/fog.webp",
+      "50n": "images/fog.webp"
+};
+
+  const iconMapSvg = {
+    "01d": "images/sunny.svg",
+    "01n": "images/clear-night.svg",
+
+    "02d": "images/cloud.svg",
+    "02n": "images/cloud.svg",
+
+    "03d": "images/cloud.svg",
+    "03n": "images/cloud.svg",
+
+    "04d": "images/cloud.svg",
+    "04n": "images/cloud.svg",
+
+    "09d": "images/rain.svg",
+    "09n": "images/rain.svg",
+
+    "10d": "images/rain.svg",
+    "10n": "images/rain.svg",
+
+    "11d": "images/rain.svg",
+    "11n": "images/rain.svg",
+
+    "13d": "images/snow.svg",
+    "13n": "images/snow.svg",
+
+    "50d": "images/fog.svg",
+    "50n": "images/fog.svg"
 };
 
   const temperature = weatherData.main.temp;
   const mph = weatherData.wind.speed;
   const desc = weatherData.weather[0].description;
   const iconCode = weatherData.weather[0].icon;
-  const iconSrc = iconMap[iconCode];
+  const iconSrcSvg = iconMapSvg[iconCode];
+  const iconSrcWebp = iconMapWebp[iconCode];
   
   const container = document.querySelector(".bottom-right");
 
@@ -61,9 +91,14 @@ function displayResults(weatherData) {
   const weatherBox = document.createElement("div");
   weatherBox.classList.add("weather-box");
 
-  const iconImg = document.querySelector("#icon");
-  iconImg.src = iconSrc;
-  iconImg.alt = desc;
+  const iconImgWebp = document.querySelector("#icon-webp");
+  const iconImgSvg = document.querySelector("#icon-svg");
+
+  iconImgWebp.src = iconSrcWebp;
+  iconImgWebp.alt = desc;
+
+  iconImgSvg.src = iconSrcSvg;
+  iconImgSvg.alt = desc;
 
   const tempEl = document.createElement("p");
   tempEl.textContent = `Temperature: ${Math.round(temperature)}°`;

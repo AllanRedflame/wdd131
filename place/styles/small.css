@@ -11,10 +11,13 @@
         background-color: var(--main-color);
         text-align: center;
         padding: 8px;
+        font-family: var(--first-font);
     }
 
     body {
         background-color: #003554;
+        font-family: var(--second-font);
+    
     }
 
     .hero-img {
@@ -29,9 +32,15 @@
         padding: 5px;
     }
 
+    #icon-webp {
+        display: none;
+    }
+
     footer {
         background-color: var(--main-color);
         text-align: center;
         padding: 8px;    
+        font-family: var(--second-font);
+
     }
 }
