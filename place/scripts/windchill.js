@@ -61,10 +61,9 @@ function displayResults(weatherData) {
   const weatherBox = document.createElement("div");
   weatherBox.classList.add("weather-box");
 
-  const iconImg = document.createElement("img");
+  const iconImg = document.querySelector("#icon");
   iconImg.src = iconSrc;
   iconImg.alt = desc;
-  weatherBox.appendChild(iconImg);
 
   const tempEl = document.createElement("p");
   tempEl.textContent = `Temperature: ${Math.round(temperature)}°`;
