@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for WDD131 - Dynamic Web Fundamentals. Temple page. Made by David Poulsen.">
+    <meta name="author" content="David Poulsen">
+    <title>WDD 131 – Dynamic Web Fundamentals – David Poulsen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link href="styles/filtered-small.css" rel="stylesheet">
+    <link href="styles/filtered-large.css" rel="stylesheet">
+
+    <script src="scripts/generateTemples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    
+</head>
+
+<body>
+    <header>
+        <span>Temple Album</span>
+        <a href="#" id="hamburger">&#9776; </a>
+
+            <div id="header-filters">
+                <button data-filter="default">Default</button>
+                <button data-filter="old">Old</button>
+                <button data-filter="new">New</button>
+                <button data-filter="large">Large</button>
+                <button data-filter="small">Small</button>
+            </div>
+    </header>
+
+    <main>
+        
+        <h1>Home</h1>
+
+            <div id="filters">
+                <button data-filter="default">Default</button>
+                <button data-filter="old">Old</button>
+                <button data-filter="new">New</button>
+                <button data-filter="large">Large</button>
+                <button data-filter="small">Small</button>
+            </div>
+        
+        <div id="figure-div">
+
+        </div>
+        
+    </main>
+    
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
