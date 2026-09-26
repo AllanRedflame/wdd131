@@ -91,11 +91,17 @@ footer {
 button {
     background-color: #eef4ed;
     padding:15px;
-    border: yellow;
     border-radius: 3px;
-    font-size: 100%;    
+   
     font-family: "Archivo Black", sans-serif;
+}
 
+button a {
+    font-size: 100%; 
+}
+
+button a:hover {
+    background-color: #bbbfba;    
 }
 
 
