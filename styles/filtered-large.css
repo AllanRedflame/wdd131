@@ -93,11 +93,12 @@ button {
     padding:15px;
     border-radius: 3px;
    
-    font-family: "Archivo Black", sans-serif;
+
 }
 
 button a {
     font-size: 100%; 
+    font-family: "Archivo Black", sans-serif;
 }
 
 button a:hover {
