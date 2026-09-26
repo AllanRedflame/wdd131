@@ -88,20 +88,19 @@ footer {
     padding: 10px;
 }    
 
-button {
+header a {
     background-color: #eef4ed;
     padding:15px;
     border-radius: 3px;
    
-
-}
-
-button a {
-    font-size: 100%; 
+    font-size: 150%; 
     font-family: "Archivo Black", sans-serif;
+    margin: 10px;
 }
 
-button a:hover {
+
+
+header a:hover {
     background-color: #bbbfba;    
 }
 

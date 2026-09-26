@@ -88,7 +88,7 @@ function parseTempleDate(dateString) {
 
 function renderTemples(list) {
   const container = document.getElementById("figure-div");
-  container.innerHTML = ""; 
+  container.innerHTML = "";
 
   list.forEach(t => {
     const card = document.createElement("figure");
@@ -113,7 +113,7 @@ function renderTemples(list) {
 }
 
 function filterTemples(mode) {
-  let filtered = [...temples]; 
+  let filtered = [...temples];
 
   switch (mode) {
     case "old":
@@ -134,16 +134,17 @@ function filterTemples(mode) {
 
     case "default":
     default:
-      filtered = [...temples]; 
+      filtered = [...temples];
       break;
   }
 
   renderTemples(filtered);
 }
 
-document.querySelectorAll("#filters button").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const mode = btn.dataset.filter; 
+document.querySelectorAll('#filters a, #header-filters a').forEach(link => {
+  link.addEventListener("click", event => {
+    event.preventDefault(); // prevents page jump
+    const mode = link.dataset.filter;
     filterTemples(mode);
   });
 });
@@ -153,6 +154,6 @@ renderTemples(temples);
 const hamburger = document.getElementById("hamburger");
 const menu = document.getElementById("filters");
 
-hamburger.addEventListener('click', () => {
-  menu.classList.toggle('open');
+hamburger.addEventListener("click", () => {
+  menu.classList.toggle("open");
 });
