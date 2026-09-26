@@ -38,21 +38,6 @@ nav button {
     margin: 5px;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-    font-size: 65%;
-    padding: 5px;
-    border-radius: 3px;
-    transition: .2s;
-}
-
-header a:hover {
-    text-decoration: none;
-    background-color: #eef4ed;
-    transition: .2s;
-}
-
 #figure-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -93,9 +78,11 @@ header a {
     padding:15px;
     border-radius: 3px;
    
-    font-size: 150%; 
+    font-size: 100%; 
     font-family: "Archivo Black", sans-serif;
     margin: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 
