@@ -1,0 +1,41 @@
+header {
+    background-color: #A6e1fa;
+    text-align: left;
+    padding: 20px;
+    font-size: 200%;
+    display: flex;
+    align-items: center;   
+    justify-content: left; 
+    height: 100px;  
+    font-family: "Oswald", sans-serif;;   
+    border: 14px solid #fd5f7e; 
+}
+
+header img {
+    width: 10%;
+
+}
+
+body {
+    background-color: #001c55;
+    font-family: "Clarity City", sans-serif;
+}
+
+main {
+    background-color: #fff0f3;   
+    padding: 20px; 
+    margin: 10px;
+        background-color: white;  
+
+}
+#wireframes {
+    width: 40%;  
+    background-color: white;  
+}
+
+footer {
+    background-color: #A6e1fa;
+    text-align: center;
+    padding: 20px;
+    font-size: 150%;
+}
