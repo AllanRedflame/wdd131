@@ -195,7 +195,7 @@
         
     }
 
-    #join-div a {
+    #join-div div a {
         background-color: var(--accent-color);
         border: none;
         padding: 8px 14px;
