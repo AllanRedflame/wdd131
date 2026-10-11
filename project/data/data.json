@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Coral Bay",
+    "country": "Fiji",
+    "region": "South Pacific",
+    "description": "Crystal-clear waters, vibrant coral reefs, and peaceful beaches ideal for snorkeling.",
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Hanalei",
+    "country": "United States",
+    "region": "Hawaii",
+    "description": "A lush coastal town surrounded by mountains, taro fields, and golden beaches.",
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Queenstown",
+    "country": "New Zealand",
+    "region": "South Island",
+    "description": "Adventure capital offering bungee jumping, alpine lakes, and breathtaking scenery.",
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Moorea",
+    "country": "French Polynesia",
+    "region": "Society Islands",
+    "description": "Emerald peaks and tranquil lagoons perfect for kayaking and wildlife encounters.",
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Savusavu",
+    "country": "Fiji",
+    "region": "Vanua Levu",
+    "description": "A hidden gem known for hot springs, diving spots, and friendly local culture.",
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Rotorua",
+    "country": "New Zealand",
+    "region": "North Island",
+    "description": "Geothermal wonders, Māori cultural experiences, and lush forest trails.",
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Bora Bora",
+    "country": "French Polynesia",
+    "region": "Leeward Islands",
+    "description": "Iconic turquoise lagoon surrounded by luxury overwater bungalows.",
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "Rarotonga",
+    "country": "Cook Islands",
+    "region": "South Pacific",
+    "description": "A relaxed island paradise with jungle peaks and calm swimming beaches.",
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Sydney",
+    "country": "Australia",
+    "region": "New South Wales",
+    "description": "A vibrant coastal city featuring iconic landmarks, surf beaches, and rich culture.",
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Tasmania",
+    "country": "Australia",
+    "region": "Southern Coast",
+    "description": "Wild landscapes, rugged coastlines, and unique wildlife encounters.",
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Aitutaki",
+    "country": "Cook Islands",
+    "region": "South Pacific",
+    "description": "A stunning lagoon with some of the clearest water on Earth.",
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Kaikōura",
+    "country": "New Zealand",
+    "region": "South Island",
+    "description": "A marine wildlife hotspot known for whale watching and coastal hikes.",
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Pago Pago",
+    "country": "American Samoa",
+    "region": "South Pacific",
+    "description": "Dramatic volcanic landscapes and rich Samoan cultural heritage.",
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Nadi",
+    "country": "Fiji",
+    "region": "Viti Levu",
+    "description": "A lively hub with markets, beaches, and easy access to island adventures.",
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Tahiti",
+    "country": "French Polynesia",
+    "region": "Society Islands",
+    "description": "A cultural and natural center with waterfalls, black-sand beaches, and vibrant markets.",
+    "rating": 4.7,
+    "featured": true
+  }
+]

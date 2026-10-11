@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Pathfinders | Home page</title>
+    <meta name="author" content="David Poulsen">
+    <meta name="description" content="Thank you for creating your Pacific Pathfinders account. Your information has been received, and you’re ready to start exploring new travel adventures">
+
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Pacific Pathfinders">
+    <meta property="og:image" content="https://allanredflame.github.io/wdd231/final/images/space-needle.webp">
+    <meta property="og:description" content="Website for Pacific Pathfinders. Discover locations and sign up for our services.">
+    <meta property="og:url" content="https://allanredflame.github.io/wdd231/final/index.html">
+
+    <script src="scripts/toggle.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <img src="images/horizon-travel-co.webp" alt="company logo">
+        <span>Pacific Pathfinding</span>
+
+        <button id="nav-toggle" aria-expanded="false" aria-controls="nav-menu">&#9776;</button>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>      
+            <a href="discover.html">Discover</a>
+            <a href="form.html" id="form-a">Form</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <div id="thank-you-div">
+            <h1>Thank you!</h1>
+            <p>Your request has been submitted. A confirmation was sent to your email.</p>
+            <p>First Name: <span id="out-first"></span></p>
+            <p>Last Name: <span id="out-last"></span></p>
+            <p>Email: <span id="out-email"></span></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="footer-contact-info">
+            <b>Pacific Pathfinders</b>
+            <p>400 Broad St, Seattle, WA 98109</p>
+            <p>Pacificp@fastmail.net</p>
+            <p>801-123-1234</p>
+        </div>
+
+        <div id="social-div">
+                <p>Social media</p>
+                <a href="https://github.com/AllanRedflame/wdd231"><img src="../images/github.svg" alt="github" id="github-icon"></a>
+                <a href="https://www.linkedin.com/feed"><img src="../images/linkedin.svg" alt="linkedin" id="linkedin-icon"></a>
+                <a href="https://x.com/"><img src="../images/xwebsite.svg" alt="x" id="x-icon"></a>
+                <a href="https://www.facebook.com"><img src="../images/facebook.svg" alt="facebook" id="facebook-icon"></a>
+        </div>
+
+        <div id="copyright">
+            <p>Copyright 2026</p>
+            <a href="https://youtu.be/yFrEBeFDICo">Video</a>
+            <p>WDD231 Final | David Poulsen</p>
+        </div>
+
+    </footer>
+</body>
+</html>
