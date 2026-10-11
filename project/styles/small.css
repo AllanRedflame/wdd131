@@ -195,8 +195,8 @@
         
     }
 
-    #join-div button {
-        background-color: var(--second-accent);
+    #join-div a {
+        background-color: var(--accent-color);
         border: none;
         padding: 8px 14px;
         text-align: center;
@@ -222,14 +222,14 @@
         padding-bottom: 15px;
     }
 
-    #discover-div button {
-        background-color: var(--second-accent);
+    #discover-div a {
+        background-color: var(--accent-color);
         border: none;
         padding: 8px 14px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 5px;
+        font-size: 0.8rem;
         cursor: pointer;
         transition: 0.3s;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
