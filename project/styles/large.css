@@ -5,7 +5,6 @@
         --accent-color: #fd5f7e;
         --second-accent: #001c55;
         --main-font: "Roboto", sans-serif;
-        --second-font: "Roboto", sans-serif;
     }
 
     header {
@@ -346,7 +345,7 @@
     #locations-section {
         padding: 2rem;
         color: white;
-        font-family: var(--second-font);
+        font-family: var(--main-font);
     }
 
     #locations-container {
@@ -396,7 +395,7 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-family: var(--second-font);
+        font-family: var(--main-font);
         font-size: 1rem;
         transition: 0.3s;
     }
@@ -484,7 +483,7 @@
     #locations-section {
         padding: 2rem;
         color: white;
-        font-family: var(--second-font);
+        font-family: var(--main-font);
     }
 
     #locations-container {
@@ -525,7 +524,7 @@
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        font-family: var(--second-font);
+        font-family: var(--main-font);
         font-size: 1rem;
         transition: 0.3s;
     }
@@ -646,7 +645,7 @@
 
     .input-box,
     label {
-        font-family: var(--second-font);
+        font-family: var(--main-font);
         color: black;
     }
 
@@ -661,7 +660,7 @@
         border-radius: 6px;
         background-color: #f8f8f8;
         font-size: 1rem;
-        font-family: var(--second-font);
+        font-family: var(--main-font);
         transition: border-color 0.3s ease, box-shadow 0.3s ease;
     }
 

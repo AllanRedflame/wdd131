@@ -1,0 +1,472 @@
+@media screen and (max-width: 799px) {
+
+    :root {
+        --main-color: #A6e1fa;
+        --accent-color: #fd5f7e;
+        --second-accent: #001c55;
+        --main-font: "Roboto", sans-serif;
+
+    }
+
+    header {
+        background-color: var(--main-color);
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        font-family: var(--main-font);
+        margin-bottom: 25px;
+        position: relative;
+    }
+
+    header span {
+        font-size: 100%;
+    }
+
+    #home-a {
+        background-color: var(--accent-color);
+        border-radius: 5px;
+        color: white;
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: 5%;
+        font-size: 55%;
+    }
+
+    nav a {
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+    }
+
+    #hero-img {
+        width: 100%;
+    }
+
+    header img {
+        width: 15%;
+    }
+
+    main {
+        margin-bottom: 25px;
+        position: relative;
+        width: 100%;
+    }
+
+    .hero-wrapper {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;    /* optional centering */
+    }
+
+    #hero-img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+        transition: 0.3s;
+
+    }
+
+    #hero-overlay {
+        position: absolute;
+        inset: 0;                 /* overlay matches image size */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* h1 at top, p at bottom */
+        padding: 1rem;
+        color: white;
+        text-shadow: 0 0 10px rgba(0,0,0,0.6);
+        pointer-events: none;
+        text-align: center;
+        font-size: 80%;
+        font-family: var(--main-font);
+    }
+
+    #hero-overlay h1, #hero-overlay p {
+        margin: 0;
+    }
+
+    body {
+        background-color: var(--accent-color);
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: var(--main-color);
+        font-family: var(--main-font);
+        padding: 25px;
+        font-size: 45%;
+        align-items: center; 
+    }
+
+    #video-link, #copyright, #social-div {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #footer-contact-info {
+        text-align: center;
+        font-size: 45%;
+    }
+
+    #social-div a {
+
+        transition: 0.3s;
+    }
+
+    #social-div img {
+        width: 15px;
+    }
+
+    #about-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+
+    }
+
+    #about-div div {
+        background-color: var(--main-color);
+        font-size: 55%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    #travel-photo {
+
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+
+        height: 100%;
+        margin-left: auto;
+        transition: 0.3s;
+        background-color: var(--accent-color);
+    }
+
+    #map-photo {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+
+        height: 100%;
+        margin-left: auto;
+        transition: 0.3s;
+        background-color: var(--accent-color);    
+    }
+
+    #hiker-photo {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+
+        height: 100%;
+        margin-left: auto;
+        transition: 0.3s;
+        background-color: var(--accent-color);
+    }
+
+    #join-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+        font-size: 55%;
+    }
+
+    #join-div div {
+        background-color: var(--main-color);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    #join-div a {
+        text-decoration: none;
+        color:black;
+        
+    }
+
+    #join-div button {
+        background-color: var(--second-accent);
+        border: none;
+        padding: 8px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.8rem;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        border-radius: 2px;
+    }
+
+    #discover-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 55%;
+    }
+
+    #discover-div div {
+        background-color: var(--main-color);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    #discover-div button {
+        background-color: var(--second-accent);
+        border: none;
+        padding: 8px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        border-radius: 2px;
+    }
+
+    #discover-div a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #nav-toggle {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    #nav-menu.open {
+        visibility: visible;
+        opacity: 1;
+        transform: translate(-50%, 0);
+        pointer-events: auto;
+    }
+
+    #nav-menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform-origin: top;
+        width: 100%;
+        max-width: 300px;        
+        padding: 20px;
+        gap: 15px;
+
+        background: var(--main-color);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        z-index: 1000;
+
+        pointer-events: none;
+        transform: translate(-50%, -10px);
+    }
+
+#join-main {
+    background-color: var(--main-color);
+    padding: 1.5rem 2rem;   /* wider horizontal padding */
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    border-radius: 8px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    width: 100%;
+    max-width: 400px;   /* centers the whole block */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 12px;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    font-family: var(--main-font);
+}
+
+nav a {
+    background-color: #0f8e8f;
+    border-radius: 2px;;
+}
+
+
+    #submit-button {
+        width: 100%;
+        padding: 14px;
+        font-size: 1.1rem;
+        background-color: var(--second-accent);
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        color: white;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+    #submit-button:hover {
+        background-color: #44c7c7;
+    }
+
+    /* Thank You Page Small View */
+    #thank-you-div {
+        background-color: var(--main-color);
+        padding: 1.5rem;
+        margin: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 1.1rem;
+    }
+
+
+#locations-section h1 {
+        text-align: center;
+        font-family: var(--main-font);
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    /* Locations Grid */
+    #locations-container {
+        display: grid;
+        grid-template-columns: 1fr; /* single column on mobile */
+        gap: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    /* Location Cards */
+    .location-card {
+        background-color: var(--main-color);
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.25);
+        color: black;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .location-card h3 {
+        font-family: var(--main-font);
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .location-card p {
+        font-size: 0.95rem;
+        margin: 0.3rem 0;
+        font-family: var(--main-font);
+    }
+
+    .location-card button {
+        margin-top: 0.8rem;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: var(--main-font);
+        font-size: 1rem;
+        transition: 0.3s;
+        width: 100%; /* full width button on mobile */
+    }
+
+    .details-btn {
+        background-color: var(--second-accent);
+        color: white;
+    }
+
+    .favorite-btn {
+        background-color: var(--accent-color);
+        color: white;
+        margin-top: 0.5rem;
+    }
+
+    .modal-content {
+        width: 90%;
+        max-width: 350px;
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: var(--main-color);
+        text-align: center;
+
+            display: block;        /* prevents flex inheritance */
+    position: relative;
+    }
+
+    #modal-title {
+        font-family: var(--main-font);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .modal-content p {
+        font-size: 1rem;
+        margin: 0.4rem 0;
+        font-family: var(--main-font);
+    }
+
+    .modal[aria-hidden="true"] {
+    display: none;
+}
+
+#modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: var(--accent-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+    
+}
