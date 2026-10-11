@@ -283,59 +283,59 @@
         transform: translate(-50%, -10px);
     }
 
-#join-main {
-    background-color: var(--main-color);
-    padding: 1.5rem 2rem;   /* wider horizontal padding */
-    width: 90%;
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    border-radius: 8px;
-}
+    #join-main {
+        background-color: var(--main-color);
+        padding: 1.5rem 2rem;   /* wider horizontal padding */
+        width: 90%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        border-radius: 8px;
+    }
 
-.input-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
+    .input-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
 
-    width: 100%;
-    max-width: 400px;   /* centers the whole block */
-    margin-left: auto;
-    margin-right: auto;
-}
+        width: 100%;
+        max-width: 400px;   /* centers the whole block */
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-label {
-    width: 90%;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    display: block;
-}
+    label {
+        width: 90%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        display: block;
+    }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 90%;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: 90%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
 
-    padding: 12px;
-    border: 2px solid var(--main-color);
-    border-radius: 6px;
-    background-color: #f8f8f8;
-    font-size: 1rem;
-    font-family: var(--main-font);
-}
+        padding: 12px;
+        border: 2px solid var(--main-color);
+        border-radius: 6px;
+        background-color: #f8f8f8;
+        font-size: 1rem;
+        font-family: var(--main-font);
+    }
 
-nav a {
-    background-color: #0f8e8f;
-    border-radius: 2px;;
-}
+    nav a {
+        background-color: #0f8e8f;
+        border-radius: 2px;;
+    }
 
 
     #submit-button {
@@ -437,9 +437,8 @@ nav a {
         border-radius: 10px;
         background-color: var(--main-color);
         text-align: center;
-
-            display: block;        /* prevents flex inheritance */
-    position: relative;
+        display: block;       
+        position: relative;
     }
 
     #modal-title {
@@ -455,18 +454,18 @@ nav a {
     }
 
     .modal[aria-hidden="true"] {
-    display: none;
-}
+        display: none;
+    }
 
-#modal-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: var(--accent-color);
-    background: none;
-    border: none;
-    cursor: pointer;
-}
+    #modal-close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 2rem;
+        color: var(--accent-color);
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
     
 }
