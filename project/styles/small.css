@@ -90,7 +90,7 @@
     }
 
     body {
-        background-color: var(--accent-color);
+        background-color: var(--main-color);
     }
 
     footer {
