@@ -611,13 +611,13 @@
     #discover-a {
         background-color: var(--accent-color);
         border-radius: 5px;
-        color: white;
+        color: black;
     }
 
     #form-a {
         background-color: var(--accent-color);
         border-radius: 5px;
-        color: white;
+        color: black;
     }
 
     #join-main {
