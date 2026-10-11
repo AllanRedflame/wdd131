@@ -416,7 +416,7 @@ nav a {
         font-family: var(--main-font);
         font-size: 1rem;
         transition: 0.3s;
-        width: 100%; /* full width button on mobile */
+        width: 100%; 
     }
 
     .details-btn {
@@ -426,7 +426,7 @@ nav a {
 
     .favorite-btn {
         background-color: var(--accent-color);
-        color: white;
+        color: black;
         margin-top: 0.5rem;
     }
 
