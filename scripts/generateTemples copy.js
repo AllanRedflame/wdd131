@@ -1,6 +1,3 @@
-// -------------------------------------
-// Temple Data (your exact object)
-// -------------------------------------
 const temples = [
   {
     templeName: "Aba Nigeria",
@@ -94,10 +91,6 @@ function parseTempleDate(dateString) {
   return new Date(`${parts[0]} ${parts[1]} ${parts[2]}`);
 }
 
-
-// -------------------------------------
-// Render Function (creates temple cards)
-// -------------------------------------
 function renderTemples(list) {
   const container = document.getElementById("figure-div");
   container.innerHTML = ""; // clear previous cards
@@ -124,12 +117,8 @@ function renderTemples(list) {
   });
 }
 
-
-// -------------------------------------
-// Filter Logic
-// -------------------------------------
 function filterTemples(mode) {
-  let filtered = [...temples]; // fresh copy every time
+  let filtered = [...temples]; 
 
   switch (mode) {
     case "old":
